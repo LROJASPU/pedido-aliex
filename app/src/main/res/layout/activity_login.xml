@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical"
+    tools:context="com.exportacion.alimentos.applogisticsmanagement.Login_Activity">
+
+    <LinearLayout
+        android:id="@+id/contenedor_form"
+        android:layout_width="@dimen/contenedor_form_login_horizontal"
+        android:layout_height="@dimen/contenedor_form_login_vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="180dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/correoEditText"
+            android:layout_width="@dimen/editText_horizontal"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Documento de identidad"
+            android:inputType="number"
+            android:maxLength="8"
+            android:digits="1234567890"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,LabelFor" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="@dimen/editText_horizontal"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:maxLength="6"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,LabelFor" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:textStyle="bold"
+        android:layout_width="@dimen/editText_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:text="INGRESAR"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"
+        />
+</LinearLayout>

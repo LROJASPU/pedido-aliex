@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/row_padding"
+    android:paddingLeft="@dimen/general_padding"
+    android:paddingRight="@dimen/general_padding"
+    android:paddingTop="@dimen/row_padding">
+
+
+    <TextView
+        android:id="@+id/txt_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingEnd="0dp"
+        android:paddingStart="@dimen/row_padding"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_presentacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_producto"
+        android:layout_alignStart="@+id/txt_producto"
+        android:layout_below="@+id/txt_producto"
+        android:paddingLeft="@dimen/row_padding"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/label_sub_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_presentacion"
+        android:layout_alignStart="@+id/txt_presentacion"
+        android:layout_below="@+id/txt_presentacion"
+        android:paddingLeft="@dimen/row_padding"
+        android:text="@string/subtotal"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_sub_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/txt_presentacion"
+        android:layout_marginLeft="170dp"
+        android:paddingLeft="@dimen/row_padding"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/label_cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_sub_total"
+        android:paddingStart="@dimen/row_padding"
+        android:text="@string/cantidad_solicitada"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_cantidad_solicitada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/label_sub_total"
+        android:layout_marginLeft="170dp"
+        android:paddingLeft="@dimen/row_padding"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+<string name="app_name">Aplicación de Gestión Logística</string>
+<string name="title_activity_principal_">Aplicación de Gestión Logística</string>
+<string name="title_home">Home</string>
+<string name="title_dashboard">Confirmación</string>
+<string name="title_notifications">Notifications</string>
+<string name="label_dni_vendedor">Documento de identidad:</string>
+<string name="label_nombres_vendedor">Nombres completos del vendedor:</string>
+<string name="label_solicitud">Ingrese documento de identidad del cliente:</string>
+<string name="label_cantidad">Ingresar la cantidad requerida:</string>
+<string name="text_button_confirmar">Confirmar venta</string>
+<string name="ingresar_dni_del_cliente">Ingresar DNI del cliente</string>
+<string name="comenzar_venta">Comenzar venta</string>
+<string name="confirmar_venta">Confirmar venta</string>
+<string name="cancelar_venta">Cancelar venta</string>
+<string name="cantidad_solicitada">Cantidad solicitada:</string>
+<string name="subtotal">Sub total a pagar: </string>
+</resources>
